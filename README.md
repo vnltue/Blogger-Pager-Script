@@ -2,7 +2,7 @@ Blogger Pager Script version 2.0
 
 ------ Guide --------------
 
-- In Blogger > Go to Template > Edit HTML:
+* In Blogger > Go to Template > Edit HTML:
 "Ctrl+F" for a search bar to find the this code: <b:include name='nextprev'/>
 
 Now replace above code with below code:
@@ -35,5 +35,7 @@ var pager_next_text = &quot;Next&quot;;
 
 *Note: 
 - YOUR-Blogger-blog-ID: In your Blogger dashboard and take a look at your URL in browser address bar. You will now see a 19 digit unique identification number for your blog like this: ?blogID=5339405615560764967
+
 - YOURBlogNAME: Your Blogspot Name.
-Replace "URL of blogger_pager_script_v20.js" with your URL.
+
+- Replace "URL of blogger_pager_script_v20.js" with your URL.
