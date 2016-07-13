@@ -21,8 +21,8 @@ Now replace above code with below code:
 </form>
 </div>
 <script type='text/javascript'>
-var blogID = &quot;5339405615560764967&quot;;
-var home_page = &quot;http://vnltue.blogspot.com/&quot;;
+var blogID = &quot;YOUR-Blogger-blog-ID&quot;;
+var home_page = &quot;http://YOURBlogNAME.blogspot.com/&quot;;
 var pager_max_main = 7;
 var pager_first_text = &quot;First&quot;;
 var pager_last_text = &quot;Last&quot;;
@@ -33,4 +33,7 @@ var pager_next_text = &quot;Next&quot;;
 </b:if>
 <!-- END Blogger Pager Script version 2.0-->
 
-*Note: Replace "URL of blogger_pager_script_v20.js" with your URL.
+*Note: 
+- YOUR-Blogger-blog-ID: In your Blogger dashboard and take a look at your URL in browser address bar. You will now see a 19 digit unique identification number for your blog like this: ?blogID=5339405615560764967
+- YOURBlogNAME: Your Blogspot Name.
+Replace "URL of blogger_pager_script_v20.js" with your URL.
