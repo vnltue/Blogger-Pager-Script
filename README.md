@@ -15,7 +15,7 @@ Now replace above code with below code:
 .blogpager:hover{color:#398BC6;}
 .TuePager input[type="text"]{ width: 10%; border: 1px solid #6FC89F; }
 </style>
-<div class"TuePager" align='center' style='margin:5px;'>
+<div class="TuePager" align='center' style='margin:5px;'>
 <form action='#' name='pager20'>
 <span id='vwg-pager-first'/> <span id='vwg-pager-prev'/> <input name='showingpage' onfocus='this.select()' size='4' title='Enter page number that You want to go' type='text' value='init...'/>/<input disabled='disabled' name='pagestotal' size='4' type='text' value='init...'/> <input onclick='checkpager()' type='button' value='Go'/> <span id='vwg-pager-next'/> <span id='vwg-pager-last'/>
 </form>
