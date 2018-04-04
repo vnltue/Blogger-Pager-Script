@@ -14,14 +14,14 @@ if(location.href.match("max-results=")){
 
 var per_page = pager_max_results ;
 if(!location.href.match('/search/label/')) { 
-	pager_feedx = "/feeds/"+blogID+"/posts/summary"; 
+	pager_feedx = "//www.blogger.com/feeds/"+blogID+"/posts/summary"; 
 	pager_pageurl = home_page+"search";
 	}
 else {
 	label = location.href.split("/")[5];
 	label = label.split("?")[0];
 	label = label.replace(/ /g,"%20");
-	pager_feedx = "/feeds/"+blogID+"/posts/summary/-/"+label;
+	pager_feedx = "//www.blogger.com/feeds/"+blogID+"/posts/summary/-/"+label;
 	pager_pageurl = home_page+"search/label/"+label;
 }
 
