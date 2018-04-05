@@ -17,7 +17,7 @@ if(!location.href.match('/search/label/')) {
 	pager_feedx = "//www.blogger.com/feeds/"+blogID+"/posts/summary"; 
 	pager_pageurl = home_page+"search";
 	}
-else {
+else { 
 	label = location.href.split("/")[5];
 	label = label.split("?")[0];
 	label = label.replace(/ /g,"%20");
